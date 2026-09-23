@@ -46,11 +46,7 @@ model = load_model()
 metadata = load_metadata()
 
 st.title("🎓 Student Performance Index Predictor")
-st.write(
-    "A simple linear regression model that estimates a student's "
-    "**Performance Index** (10–100) from study habits and past scores. "
-    "Built as a practice ML project — trained on a synthetic Kaggle dataset."
-)
+
 
 if model is None:
     st.error(
@@ -109,9 +105,3 @@ if metadata:
         st.json(metadata.get("metrics", {}))
         st.write("**Coefficients**")
         st.json(metadata.get("coefficients", {}))
-
-st.caption(
-    "Note: this dataset is synthetic (Kaggle: "
-    "nikhil7280/student-performance-multiple-linear-regression), "
-    "so predictions are for practice/demo purposes only."
-)
