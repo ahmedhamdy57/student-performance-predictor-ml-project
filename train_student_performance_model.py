@@ -1,5 +1,5 @@
 """
-train.py
+train_student_performance_model.py
 Trains a Linear Regression model on the Student Performance dataset (Kaggle)
 and saves the trained model + metadata for use in the Streamlit app.
 
@@ -85,6 +85,13 @@ def train_and_evaluate(X, y):
 
 def main():
     df = load_dataset()
+
+    # Save a copy of the raw data so the Streamlit "Data Analysis" page can
+    # load it directly, without needing Kaggle access at deploy time.
+    os.makedirs("data", exist_ok=True)
+    df.to_csv("data/student_performance.csv", index=False)
+    print("Saved raw dataset to data/student_performance.csv")
+
     X, y, feature_cols = preprocess(df)
     model, metrics = train_and_evaluate(X, y)
 

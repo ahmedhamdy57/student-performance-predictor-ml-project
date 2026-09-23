@@ -1,12 +1,12 @@
 # Student Performance Predictor 🎓
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://student-performance-predictor-ml-project-hpufg7cj8juptffk8tabi.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://student-performance-predictor-ml-project-dar3ff6dnfzyl3yu4etbt.streamlit.app/)
  
 A small practice ML project that predicts a student's **Performance Index**
 (10–100) using multiple linear regression, with a Streamlit app for
 interactive predictions.
  
-🔗 **[Try the live demo](https://student-performance-predictor-ml-project-hpufg7cj8juptffk8tabi.streamlit.app/)**
+🔗 **[Try the live demo](https://student-performance-predictor-ml-project-dar3ff6dnfzyl3yu4etbt.streamlit.app/)**
 
 
  ML project that predicts a student's **Performance Index**

@@ -4,3 +4,7 @@ joblib
 streamlit
 kagglehub
 numpy
+plotly
+statsmodels
+scipy
+ 
