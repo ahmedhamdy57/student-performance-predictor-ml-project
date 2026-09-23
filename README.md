@@ -20,12 +20,6 @@ interactive predictions.
 - `Sleep Hours`
 - `Sample Question Papers Practiced`
 
-**Target**
-- `Performance Index` (10–100)
-
-> Note: the dataset is synthetic and created for illustrative purposes;
-> relationships between variables may not reflect real-world scenarios.
-
 ## Project structure
 
 ```
