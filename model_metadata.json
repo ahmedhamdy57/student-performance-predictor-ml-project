@@ -1,0 +1,23 @@
+{
+  "feature_cols": [
+    "Hours Studied",
+    "Previous Scores",
+    "Extracurricular Activities",
+    "Sleep Hours",
+    "Sample Question Papers Practiced"
+  ],
+  "target_col": "Performance Index",
+  "metrics": {
+    "r2": 0.989,
+    "mae": 1.6111,
+    "rmse": 2.0206
+  },
+  "coefficients": {
+    "Hours Studied": 2.852483930072591,
+    "Previous Scores": 1.0169881989329301,
+    "Extracurricular Activities": 0.6086166795764203,
+    "Sleep Hours": 0.4769414841762724,
+    "Sample Question Papers Practiced": 0.19183144145054287
+  },
+  "intercept": -33.92194621555634
+}
