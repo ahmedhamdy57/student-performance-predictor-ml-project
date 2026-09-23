@@ -1,13 +1,17 @@
 # Student Performance Predictor 🎓
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://student-performance-predictor-ml-project-hpufg7cj8juptffk8tabi.streamlit.app/)
+ 
 A small practice ML project that predicts a student's **Performance Index**
 (10–100) using multiple linear regression, with a Streamlit app for
 interactive predictions.
+ 
+🔗 **[Try the live demo](https://student-performance-predictor-ml-project-hpufg7cj8juptffk8tabi.streamlit.app/)**
 
-## Dataset
 
-[Student Performance (Multiple Linear Regression)](https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression)
-on Kaggle — 10,000 synthetic student records.
+ ML project that predicts a student's **Performance Index**
+(10–100) using multiple linear regression, with a Streamlit app for
+interactive predictions.
 
 **Features**
 - `Hours Studied`
@@ -26,8 +30,10 @@ on Kaggle — 10,000 synthetic student records.
 
 ```
 .
-├── train.py              # Downloads data, trains & evaluates the model, saves model.pkl
-├── app.py                 # Streamlit app for interactive predictions
+├── train_student_performance_model.py   # Downloads data, trains & evaluates the model, saves model.pkl
+├── student_performance_app.py           # Streamlit app for interactive predictions
+├── model.pkl                            # Pre-trained model (used by the live demo)
+├── model_metadata.json                  # Feature names, metrics & coefficients
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -66,7 +72,4 @@ split. `train.py` prints R², MAE, and RMSE on the test set and stores them
 in `model_metadata.json`, which the Streamlit app displays under
 "Model details".
 
-## Disclaimer
 
-This is a practice/portfolio project using a synthetic dataset — predictions
-are for demonstration purposes only.
